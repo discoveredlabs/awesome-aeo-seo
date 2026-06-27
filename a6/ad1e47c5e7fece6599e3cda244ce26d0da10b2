@@ -1,0 +1,19 @@
+contributing.md
+  s_f42c33bebed437::t_6f29e588850425 1-21
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "a6ad1e47c5e7fece6599e3cda244ce26d0da10b2",
+  "prompts": {},
+  "sessions": {
+    "s_f42c33bebed437": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "08738c1e-11b9-4863-8858-096893583de9",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "benkmoore <ben.karl.moore@gmail.com>"
+    }
+  }
+}
