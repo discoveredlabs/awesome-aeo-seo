@@ -1,0 +1,19 @@
+README.md
+  s_f42c33bebed437::t_322b1c56774560 3,24,26,28,30,32,34,36,40,50,56,66,70,74,80,90,96,98,100,108,114,116,118,120,124,126,138,140,142,148,156,162,174,178,190,195-196,199,215,235,241,247,255-256
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.3",
+  "base_commit_sha": "823413529d6163aeb84a279dfc148ba4acd4dac9",
+  "prompts": {},
+  "sessions": {
+    "s_f42c33bebed437": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "08738c1e-11b9-4863-8858-096893583de9",
+        "model": "claude-sonnet-4-6"
+      },
+      "human_author": "benkmoore <ben.karl.moore@gmail.com>"
+    }
+  }
+}
