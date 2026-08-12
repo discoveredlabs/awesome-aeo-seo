@@ -231,6 +231,8 @@ Reddit is a high-leverage AEO surface that most technical teams underinvest in b
 
 - [One Polluted Page Is Enough](https://arxiv.org/abs/2606.13610) - A single strategically placed document in the retrieval corpus steers AI recommendations across all tested models (Luo and Chen, 2026); the corollary for legitimate AEO: one high-authority third-party mention on a well-ranked domain can meaningfully lift brand surfacing in AI-generated recommendations.
 
+- [Mentioned](https://mentioned.to) - Managed service acting on this surface directly: identifies the Reddit threads already ranking on Google and cited by answer engines for a brand's keywords, publishes native comments and posts into them from warmed accounts, and reports share of voice against competitors. Relevant to the retrieval-vs-attribution gap above, since presence in retrieved threads is the lever even when visible citation rates stay low.
+
 > **Research gap:** No peer-reviewed paper exists specifically analyzing Reddit as a controlled AEO optimization surface. The Discovered Labs research above is the primary empirical source for this section.
 
 ---
