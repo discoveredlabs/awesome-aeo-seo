@@ -13,8 +13,9 @@
 - [Reddit & Off-Page Signals](#reddit--off-page-signals)
 - [Agentic SEO](#agentic-seo)
 - [Open Source Tools](#open-source-tools)
-- [People to Follow](#people-to-follow)
 - [Related Lists](#related-lists)
+- [People to Follow](#people-to-follow)
+- [Known Research Gaps](#known-research-gaps)
 - [Contributing](#contributing)
 
 ---
@@ -31,7 +32,7 @@ Protocol-level and reverse-engineered analysis of how major AI search engines re
 
 - [How Gemini Works: AI Agent Architecture Deep Dive](https://discoveredlabs.com/blog/how-gemini-works-ai-agent-architecture-deepdive) - Protocol-level analysis of Gemini's BatchExecute RPC system cataloging 227 RPC calls across 28 methods per session, 138 active feature flags, six query routing modes (Default, Agent, Deep Research, Deep Think, Canvas, Gempix), and 161 long-polling Signaler connections - documents how structured data and entity relationships directly influence citation decisions at the session level.
 
-- [Google AI Overviews: Official Indexing and Control Documentation](https://developers.google.com/search/docs/appearance/ai-overviews) - Google's canonical reference establishing that no special schema.org markup exists beyond standard Search eligibility and that exclusion is controlled via `robots.txt`, `nosnippet`, `data-nosnippet`, and `max-snippet` - authoritative on the absence of a privileged technical channel for AI Overview inclusion.
+- [Google AI Overviews: Official Indexing and Control Documentation](https://developers.google.com/search/docs/appearance/ai-overviews) - (Cross-listed from [Technical SEO](#technical-seo).) Google's canonical reference establishing that no special schema.org markup exists beyond standard Search eligibility and that exclusion is controlled via `robots.txt`, `nosnippet`, `data-nosnippet`, and `max-snippet` - authoritative on the absence of a privileged technical channel for AI Overview inclusion.
 
 - [How AI Search Grounding Actually Works: Google vs OpenAI vs Anthropic](https://dejan.ai/blog/grounding/) - Direct comparison of grounding behavior across three platforms on the same query: Google retrieves 7 pages and cites all 7 (1:1 ratio), OpenAI retrieves 39 but cites only 2 (20:1 filtering), Anthropic reads 14 and cites 9 with visibility into 5 rejected sources; each wraps snippets differently (redirect-wrapped readable URLs, 100-200 word sliding windows, encrypted snippets requiring a second pass); establishes that "AI mentioned us" is only meaningful within a specific platform's citation architecture.
 
@@ -90,8 +91,6 @@ Controlled experiments, large-scale audits, and empirical studies on AI citation
 ### Causal Inference & Methodology
 
 - [Disentangling AEO from Platform Growth](https://arxiv.org/abs/2606.04362) - Natural experiment using untreated pages as controls isolates true causal AEO effect from ChatGPT's underlying platform growth (Watanabe and Nakayashiki, 2026); genuine AEO lift was 1.82× ChatGPT referral (95% CI: 1.31–2.54, p=0.001) while site-wide ChatGPT traffic grew 5.7× from platform expansion alone - the canonical methodological warning for AEO attribution.
-
-- [Quantifying Uncertainty in AI Visibility](https://arxiv.org/abs/2603.08924) - AI search citation distributions follow power laws with high variance, making single-run visibility metrics statistically unreliable for decision-making (Sielinski, 2026); bootstrap confidence intervals show many apparent performance differences fall within measurement noise, with minimum sample size guidance published for Perplexity, SearchGPT, and Gemini.
 
 ### Evaluation Frameworks and Methodology
 
@@ -175,11 +174,7 @@ Implementation references for engineers configuring sites for AI crawler access,
 
 - [Schema.org Technical Documentation](https://schema.org/docs/documents.html) - Full type hierarchy (downloadable as a single file), data model, extension mechanism for custom vocabulary, and domain-specific vocabularies (health, automotive, financial services, hospitality) at V30.0 (2026-03-19) - the authoritative vocabulary reference underlying all Google structured data and AI search grounding.
 
-- [llms-txt-hub](https://github.com/thedaviddias/llms-txt-hub) - Largest curated directory of llms.txt implementations (863 stars): searchable registry with generators, validators, and integration guides for Next.js, Docusaurus, Hugo, and Astro - the primary reference for the llms.txt standard.
-
-- [dualmark](https://github.com/dodopayments/dualmark) - Dual-serves clean Markdown to AI bots and polished HTML to humans from the same URL via HTTP content negotiation (91 stars); six framework adapters (Next.js, Astro, SvelteKit, Cloudflare Workers, Deno Deploy, Vercel Edge), CLI conformance scorer (0–125 pts), and automatic llms.txt generation. Apache 2.0 with patent grant.
-
-- [aeo.js](https://github.com/multivmlabs/aeo.js) - Framework-agnostic library (100 stars) generating llms.txt, robots.txt, sitemaps, and JSON-LD structured data with a browser-based AI-crawler visibility scorer (0–100) and a widget for toggling AI-readable markdown views; supports Astro, Next.js, Nuxt, Remix, SvelteKit, Angular, Vite, and plain CLI. MIT.
+- [llms.txt](https://llmstxt.org) - Jeremy Howard's specification defining the `llms.txt` Markdown convention for exposing a site's structure and key context to LLMs and agents; the canonical standard that tooling such as `llms-txt-hub` and `aeo.js` implements.
 
 - [MCP vs RAG vs NLWeb vs HTML](https://arxiv.org/abs/2511.23281) - RAG outperforms raw HTML, API endpoints, and natural-language web interfaces for AI agent retrieval on both accuracy and efficiency (Steiner et al., 2025); how content is exposed to agents matters as much as the content itself - the architectural decision guide for structuring content exposure for AI agent discoverability.
 
@@ -197,7 +192,7 @@ Implementation references for engineers configuring sites for AI crawler access,
 
 Statistical frameworks and tooling for building AEO measurement systems that distinguish signal from noise - the highest-stakes section for teams making investment decisions based on AI visibility data.
 
-- [Quantifying Uncertainty in AI Visibility](https://arxiv.org/abs/2603.08924) - AI search citation distributions follow power laws with high variance, making single-run visibility metrics statistically unreliable for decision-making (Sielinski, 2026); bootstrap confidence intervals show many apparent performance differences fall within measurement noise, with minimum sample size guidance for Perplexity, SearchGPT, and Gemini.
+- [Quantifying Uncertainty in AI Visibility](https://arxiv.org/abs/2603.08924) - (Cross-listed from [Research & Papers](#research--papers).) AI search citation distributions follow power laws with high variance, making single-run visibility metrics statistically unreliable for decision-making (Sielinski, 2026); bootstrap confidence intervals show many apparent performance differences fall within measurement noise, with minimum sample size guidance for Perplexity, SearchGPT, and Gemini.
 
 - [Why Most AEO Tools Give You Noise](https://discoveredlabs.com/blog/aeo-test-bed-noise-vs-signal) - Practical companion to the Sielinski paper defining what rigorous AEO measurement requires: credible intervals, multi-run consistency checks, and explicit separation of between-question variance (different prompts yielding 60% vs. 20% mention rates) from within-question variance (LLM stochasticity across runs of the same prompt).
 
@@ -290,6 +285,8 @@ GitHub repositories with runnable code. Stars noted as of curation date. Vendor 
 
 - [agent-seo](https://github.com/pontiggia/agent-seo) - Middleware detecting 17+ AI crawler user agents (GPTBot, ClaudeBot, and others) and serving clean Markdown instead of HTML; adapters for Next.js, Express, Fastify, and Hono - the server-side content negotiation option for server-rendered frameworks without CDN transform support.
 
+- [NLWeb](https://github.com/microsoft/NLWeb) - Microsoft's open-source protocol and reference implementation for making any website natively queryable by AI agents through a natural-language interface built on Schema.org and RSS, with adapters for major LLM providers and a built-in chat UI.
+
 ### Data & Research
 
 - [open-seo](https://github.com/every-app/open-seo) - Open-source SEO data platform: keyword research, rank tracking, competitor analysis, backlink analysis, and site audits with an MCP interface for AI agent workflows; self-hostable via Docker or Cloudflare with optional Google Search Console integration. 3,100 stars, TypeScript. MIT.
@@ -337,6 +334,18 @@ Researchers, educators, and practitioners whose work is most directly relevant t
 - [MIT 6.S191: Introduction to Deep Learning](http://introtodeeplearning.com) - Alexander Amini; covers neural networks, retrieval, and multimodal learning - the shortest path to understanding AI search retrieval mechanics from first principles.
 - [CMU CS11-711: Advanced NLP](https://phontron.com/class/anlp2025/) - Graham Neubig; free online; covers RAG, embedding evaluation, and multilingual NLP - the graduate-level reference for AEO measurement methodology.
 - [Deeplearning.ai: AI Agents in LangGraph](https://www.deeplearning.ai/courses/ai-agents-in-langgraph/) - Andrew Ng and Harrison Chase; multi-agent architectures, tool use, and agentic pipeline design - the practical foundation for building agentic AEO pipelines.
+
+---
+
+## Known Research Gaps
+
+Topics where no quality resource currently exists in this list. Submissions that fill these gaps are prioritized over additions to already-covered areas.
+
+- **Cross-lingual and multilingual AEO** - The list's own cross-lingual survey entry flags this as "the largest empirical gap in the current GEO literature"; citation behavior across languages and regional engine deployments is almost entirely unstudied despite multilingual retrieval being a first-class concern for global brands.
+- **Reddit as a controlled AEO surface** - No peer-reviewed paper analyzes Reddit as a controlled optimization surface (noted inline in [Reddit & Off-Page Signals](#reddit--off-page-signals)); the empirical basis is currently limited to one vendor study.
+- **Agentic SEO measurement** - Agent-native retrieval (coding assistants, browser agents, autonomous research systems) has distinct citation and absorption dynamics from conversational AEO, yet no public benchmark measures agent-specific visibility the way conversational trackers do.
+- **Longitudinal causal AEO attribution** - Only one natural experiment ([Disentangling AEO from Platform Growth](#research--papers)) isolates true causal AEO lift from platform growth; replication across niches and engines is needed before attribution claims are trustworthy.
+- **Low-tier brand AEO strategy** - [Prominence-Stratified Failure Modes](#research--papers) shows L4/L5 brands are invisible in 48–52% of runs, but strategies calibrated to brand tier rather than applied uniformly are under-researched.
 
 ---
 
