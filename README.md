@@ -270,6 +270,8 @@ GitHub repositories with runnable code. Stars noted as of curation date. Vendor 
 
 - [claude-seo](https://github.com/AgriciDaniel/claude-seo) - Universal SEO agent skill for Claude Code: 25+ sub-skills and 18 specialist agents covering technical SEO, E-E-A-T, Schema.org (30+ types), GEO/AEO via `/seo geo` sub-skill, backlink analysis, local SEO, semantic clustering, and e-commerce; SPA-aware via Playwright with optional Firecrawl and DataForSEO MCP extensions. 9,900 stars, Python. MIT.
 
+- [geolint](https://github.com/iliasabk/geolint) - ESLint-style linter for AI-search readiness: evaluates robots.txt against 51 AI crawler tokens, validates llms.txt and AI manifests, checks structured data and citability; 51 rules, 0-100 score, SARIF output, GitHub Action with PR comments, and MCP server. TypeScript. MIT.
+
 ### AI Visibility Monitoring
 
 - [elmo](https://github.com/elmohq/elmo) - Self-hosted visibility monitor tracking ChatGPT, Claude, and Perplexity with competitor benchmarking and full data ownership; stack: Docker Compose + PostgreSQL + TanStack Start; actively maintained through v0.2.13. 148 stars, TypeScript. MIT.
