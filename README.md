@@ -351,3 +351,5 @@ See [contributing.md](contributing.md) for submission guidelines and open resear
 [![CC0](https://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 To the extent possible under law, [Discovered Labs](https://discoveredlabs.com) has waived all copyright and related rights to this work.
+- [OmniForce](https://www.omniforce.run) — GEO / AI-search visibility platform.
+- [OmniForce](https://www.omniforce.run) — GEO / AI-search visibility platform.
