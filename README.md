@@ -215,6 +215,8 @@ Statistical frameworks and tooling for building AEO measurement systems that dis
 
 - [Discovered Labs: AI Visibility Tracker](https://discoveredlabs.com/technology/ai-visibility-tracker) - Managed monitoring platform testing real buyer questions (sourced from Google Search Console, support tickets, call transcripts, and subreddits) across ChatGPT, Claude, Perplexity, Google AI Overviews, and Gemini every five days; tracks citation rate, mention rate, average ranking position, share of voice, citation source breakdown (Reddit, reviews, YouTube, blogs), brand perception scoring, and competitor benchmarking; statistically rigorous - each prompt runs multiple times with 95% credible intervals, and movements only register after three consecutive significant runs to eliminate LLM stochasticity noise.
 
+- [Which AI-Visibility Tools Show Their Work?](https://citedindex.com/blog/methodology-transparency-ai-visibility-tools-2026/) - CitedIndex editorial review (August 2026) of the public pages of 74 AI visibility tools, classifying 6 as publishing inspectable methods or supporting material, 36 as making accuracy claims without qualifying support, and 32 as making no accuracy claim; a disclosure classification, not a test of score accuracy.
+
 ---
 
 ## Reddit & Off-Page Signals
