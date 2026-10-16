@@ -99,6 +99,8 @@ Controlled experiments, large-scale audits, and empirical studies on AI citation
 
 - [A Survey of Cross-Lingual Word Embedding Models](https://arxiv.org/abs/1706.04902) - Sebastian Ruder's foundational survey of cross-lingual representation learning (Ruder et al., 2017); the methodology reference for researchers studying how citation probability varies across languages or regional engine deployments - the largest empirical gap in the current GEO literature.
 
+- [IndicGEO](https://github.com/ifham001/IndicGEO) - English/Hinglish brand-mention and citation dataset with reproducible analysis of 959 responses from ten skincare and fashion prompts across two India-focused waves, using ChatGPT and Gemini UI captures plus Perplexity Sonar API.
+
 - [Survey of Hallucination in Natural Language Generation](https://arxiv.org/abs/2202.03629) - Comprehensive taxonomy of hallucination types, detection methods, and mitigation strategies (Ji et al., 2022); explains the parametric knowledge threshold that determines when LLMs bypass live retrieval entirely, making this the mechanistic basis for targeting knowledge-gap content in AEO strategy.
 
 - [Lil'Log: Extrinsic Hallucination in LLMs](https://lilianweng.github.io/posts/2024-07-07-hallucination/) - Lilian Weng's technical analysis of hallucination in production retrieval systems covering attribution failure modes, grounding methods, and retrieval-augmented mitigation patterns; directly explains the citation decay dynamics that occur as engine retrieval models update and parametric coverage of a topic expands.
