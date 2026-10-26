@@ -54,6 +54,7 @@ Protocol-level and reverse-engineered analysis of how major AI search engines re
 - [How Google AI Mode Ads Work Today](https://discoveredlabs.com/blog/how-google-ai-mode-ads-work-today-and-what-they-might-look-like-tomorrow) - Analysis of 547 network flows from AI Mode sessions: ad auctions run and complete in the background within 60 milliseconds despite ads not yet displaying; documents AsyncDataService timing patterns, `adview_query_id` attribution chains, and shopping ad code patterns confirming the full monetization infrastructure is built and awaiting activation.
 
 - [How Gemini Ads Work Today](https://discoveredlabs.com/blog/how-gemini-ads-work-today-and-what-they-look-like-when-activated) - Eight-layer traffic inspection revealing five dormant advertising SDKs (qads, ada, adrc, qapid, adcgm3) calling Google's OneGoogle Ads RPC endpoint and returning null responses; documents Shopify and Google Merchant Center commerce integrations alongside 5,000+ feature flags providing granular ad rollout control.
+- [Mode VC WebMCP & Backlink Lens](https://modevc.com/tools/webmcp-backlink-lens) - Open-source Manifest V3 Chrome Extension and W3C WebMCP inspector for auditing dofollow/nofollow links and `.well-known/mcp.json` manifests.
 
 ---
 
