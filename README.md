@@ -87,6 +87,8 @@ Controlled experiments, large-scale audits, and empirical studies on AI citation
 
 - [The Discovery Gap: Product Hunt Startups in LLM Discovery](https://arxiv.org/abs/2601.00912) - LLMs recognize products by name at 99% but surface them in organic discovery queries at only 3–8% (Sharma, 2026); traditional SEO signals - referring domains and community rank - predicted Perplexity visibility better than any AI-specific tactic, making SEO foundation a prerequisite for LLM discoverability rather than an alternative to it.
 
+- [robots.txt and llms.txt Across 118 AEO Tool and Agency Sites](https://aeofootnotes.com/lab/robotstxt-and-llmstxt-across-118-aeo-tools-and-agency-sites-what-we-found) - Census of 118 AEO vendor and agency domains fetched on 2026-10-29 and parsed per RFC 9309 (raw JSON published) finding that 116 serve robots.txt, 64 serve llms.txt, and no AI crawler is blocked by more than one site, so the industry selling AI visibility almost universally leaves AI crawlers open.
+
 ### Causal Inference & Methodology
 
 - [Disentangling AEO from Platform Growth](https://arxiv.org/abs/2606.04362) - Natural experiment using untreated pages as controls isolates true causal AEO effect from ChatGPT's underlying platform growth (Watanabe and Nakayashiki, 2026); genuine AEO lift was 1.82× ChatGPT referral (95% CI: 1.31–2.54, p=0.001) while site-wide ChatGPT traffic grew 5.7× from platform expansion alone - the canonical methodological warning for AEO attribution.
