@@ -268,6 +268,8 @@ GitHub repositories with runnable code. Stars noted as of curation date. Vendor 
 
 - [seobuild-onpage](https://github.com/gbessoni/seobuild-onpage) - Full page generation pipeline: pulls live SERP data, analyzes top competitors, extracts People Also Ask, finds content gaps, and writes structured pages with FAQ sections and schema markup; includes a 55-point post-generation quality checklist targeting Google AI Overviews and Perplexity explicitly. 218 stars, Python. MIT.
 
+- [seocheck-cli](https://github.com/romangrid/seocheck-cli) - CLI and Python library that inspects HTTP response headers, robots.txt bot directives for AI search crawlers (GPTBot, ClaudeBot, PerplexityBot), JSON-LD schemas, and asset payload weights to audit technical readiness for answer engines. Python. MIT.
+
 - [claude-seo](https://github.com/AgriciDaniel/claude-seo) - Universal SEO agent skill for Claude Code: 25+ sub-skills and 18 specialist agents covering technical SEO, E-E-A-T, Schema.org (30+ types), GEO/AEO via `/seo geo` sub-skill, backlink analysis, local SEO, semantic clustering, and e-commerce; SPA-aware via Playwright with optional Firecrawl and DataForSEO MCP extensions. 9,900 stars, Python. MIT.
 
 ### AI Visibility Monitoring
