@@ -298,6 +298,8 @@ GitHub repositories with runnable code. Stars noted as of curation date. Vendor 
 
 - [gpt-researcher](https://github.com/assafelovic/gpt-researcher) - Autonomous research agent that plans, searches, scrapes, and synthesizes reports with citations; most relevant for competitive intelligence, content gap analysis, and building the type of citation-worthy original research that the citation data shows dominates AI engine outputs. 27,900 stars, Python.
 
+- [FlashData](https://github.com/rocosen/flashdata-mcp) - MIT CLI and MCP client supplying Google Search, News, Images, Shopping, Videos and Places plus YouTube search, extended search, metadata, transcripts, captions, channels and autocomplete to competitive-research pipelines through an API key and paid FlashData Credits.
+
 ---
 
 ## Related Lists
