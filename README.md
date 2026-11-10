@@ -215,6 +215,8 @@ Statistical frameworks and tooling for building AEO measurement systems that dis
 
 - [Discovered Labs: AI Visibility Tracker](https://discoveredlabs.com/technology/ai-visibility-tracker) - Managed monitoring platform testing real buyer questions (sourced from Google Search Console, support tickets, call transcripts, and subreddits) across ChatGPT, Claude, Perplexity, Google AI Overviews, and Gemini every five days; tracks citation rate, mention rate, average ranking position, share of voice, citation source breakdown (Reddit, reviews, YouTube, blogs), brand perception scoring, and competitor benchmarking; statistically rigorous - each prompt runs multiple times with 95% credible intervals, and movements only register after three consecutive significant runs to eliminate LLM stochasticity noise.
 
+- [Can You Track AI Visibility with an API?](https://github.com/webglazer/ai-visibility-api-vs-ui-study) - 21,250 answers from ChatGPT, Gemini and Google AI Mode (WebGlazer, November 2026): the same 1,250 prompts asked 5 times through each website and once through each API, all with web search on; the ChatGPT API shares far fewer brands with the website (Jaccard 0.31) than the website shares with itself (0.50), the Gemini API cites different sites than the app (0.14 vs 0.22), and the ChatGPT website searched the web in only 46% of answers; full answers, code and 95% confidence intervals are public.
+
 ---
 
 ## Reddit & Off-Page Signals
