@@ -93,6 +93,8 @@ Controlled experiments, large-scale audits, and empirical studies on AI citation
 
 - [Quantifying Uncertainty in AI Visibility](https://arxiv.org/abs/2603.08924) - AI search citation distributions follow power laws with high variance, making single-run visibility metrics statistically unreliable for decision-making (Sielinski, 2026); bootstrap confidence intervals show many apparent performance differences fall within measurement noise, with minimum sample size guidance published for Perplexity, SearchGPT, and Gemini.
 
+- [GEO Lab: Historical Replication and Sample-Size Sensitivity](https://helen-bird.github.io/geo-platform-observation/reviews/interim-review/historical-replication/) - Reruns ten GEO prompts fifteen times each on OpenAI API web search and Grok Expert (300 new answers) and enumerates smaller answer subsets to assess how sample size changes the findings.
+
 ### Evaluation Frameworks and Methodology
 
 - [HELM: Holistic Evaluation of Language Models](https://github.com/stanford-crfm/helm) - Stanford CRFM's open evaluation framework covering 100+ scenarios and 50+ metrics with calibrated uncertainty estimates; the methodological template for longitudinal citation rate studies and controlled AEO experiments requiring statistical rigor beyond single-run visibility scores.
