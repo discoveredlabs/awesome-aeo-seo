@@ -290,6 +290,8 @@ GitHub repositories with runnable code. Stars noted as of curation date. Vendor 
 
 - [agent-seo](https://github.com/pontiggia/agent-seo) - Middleware detecting 17+ AI crawler user agents (GPTBot, ClaudeBot, and others) and serving clean Markdown instead of HTML; adapters for Next.js, Express, Fastify, and Hono - the server-side content negotiation option for server-rendered frameworks without CDN transform support.
 
+- [Mydentify AI Crawler Access Checker](https://github.com/mitdralla/mydentify-ai-crawler-access-checker) - A dependency-free Node.js CLI that evaluates robots.txt for six documented OpenAI and Anthropic crawler names, inspects page-level indexing directives, and reports each user-agent's HTTP response.
+
 ### Data & Research
 
 - [open-seo](https://github.com/every-app/open-seo) - Open-source SEO data platform: keyword research, rank tracking, competitor analysis, backlink analysis, and site audits with an MCP interface for AI agent workflows; self-hostable via Docker or Cloudflare with optional Google Search Console integration. 3,100 stars, TypeScript. MIT.
