@@ -87,6 +87,8 @@ Controlled experiments, large-scale audits, and empirical studies on AI citation
 
 - [The Discovery Gap: Product Hunt Startups in LLM Discovery](https://arxiv.org/abs/2601.00912) - LLMs recognize products by name at 99% but surface them in organic discovery queries at only 3–8% (Sharma, 2026); traditional SEO signals - referring domains and community rank - predicted Perplexity visibility better than any AI-specific tactic, making SEO foundation a prerequisite for LLM discoverability rather than an alternative to it.
 
+- [AI Source Index](https://github.com/atlaven/ai-source-index) - Open weekly panel asking the same 40 buyer questions on ChatGPT, Perplexity, Gemini, Claude, Google AI Overviews and AI Mode since September 2026, with raw rows, flat CSVs and Python plus independent Node recounts under CC BY 4.0 (DOI 10.5281/zenodo.23651937); across ten runs 79.5% of 10,634 domain citations came from only one of the six engines, so visibility measured on one engine does not transfer to the others.
+
 ### Causal Inference & Methodology
 
 - [Disentangling AEO from Platform Growth](https://arxiv.org/abs/2606.04362) - Natural experiment using untreated pages as controls isolates true causal AEO effect from ChatGPT's underlying platform growth (Watanabe and Nakayashiki, 2026); genuine AEO lift was 1.82× ChatGPT referral (95% CI: 1.31–2.54, p=0.001) while site-wide ChatGPT traffic grew 5.7× from platform expansion alone - the canonical methodological warning for AEO attribution.
