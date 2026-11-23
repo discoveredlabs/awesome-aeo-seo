@@ -87,6 +87,8 @@ Controlled experiments, large-scale audits, and empirical studies on AI citation
 
 - [The Discovery Gap: Product Hunt Startups in LLM Discovery](https://arxiv.org/abs/2601.00912) - LLMs recognize products by name at 99% but surface them in organic discovery queries at only 3–8% (Sharma, 2026); traditional SEO signals - referring domains and community rank - predicted Perplexity visibility better than any AI-specific tactic, making SEO foundation a prerequisite for LLM discoverability rather than an alternative to it.
 
+- [2026 AI Search Readiness & /llms.txt Benchmark](https://zcoldwater.github.io/citeready-cli/ai-search-readiness-benchmark-2026.html) - Empirical audit of 50 AI and developer SaaS domains across root llms.txt, llms-full.txt, Schema.org entity graphs, and 10 AI crawler robots.txt directives (open JSON dataset included), finding 74% ship llms.txt while only 22% ship llms-full.txt and 32% score zero on Schema.org entity markup.
+
 ### Causal Inference & Methodology
 
 - [Disentangling AEO from Platform Growth](https://arxiv.org/abs/2606.04362) - Natural experiment using untreated pages as controls isolates true causal AEO effect from ChatGPT's underlying platform growth (Watanabe and Nakayashiki, 2026); genuine AEO lift was 1.82× ChatGPT referral (95% CI: 1.31–2.54, p=0.001) while site-wide ChatGPT traffic grew 5.7× from platform expansion alone - the canonical methodological warning for AEO attribution.
@@ -269,6 +271,8 @@ GitHub repositories with runnable code. Stars noted as of curation date. Vendor 
 - [seobuild-onpage](https://github.com/gbessoni/seobuild-onpage) - Full page generation pipeline: pulls live SERP data, analyzes top competitors, extracts People Also Ask, finds content gaps, and writes structured pages with FAQ sections and schema markup; includes a 55-point post-generation quality checklist targeting Google AI Overviews and Perplexity explicitly. 218 stars, Python. MIT.
 
 - [claude-seo](https://github.com/AgriciDaniel/claude-seo) - Universal SEO agent skill for Claude Code: 25+ sub-skills and 18 specialist agents covering technical SEO, E-E-A-T, Schema.org (30+ types), GEO/AEO via `/seo geo` sub-skill, backlink analysis, local SEO, semantic clustering, and e-commerce; SPA-aware via Playwright with optional Firecrawl and DataForSEO MCP extensions. 9,900 stars, Python. MIT.
+
+- [citeready-cli](https://github.com/zColdWater/citeready-cli) - Zero-dependency CLI and GitHub Action validating llms.txt structure, sitemap coverage gaps, Schema.org JSON-LD entity graphs, and robots.txt directives across 10 AI search crawlers with deterministic 0–100 CI scoring. JavaScript. MIT.
 
 ### AI Visibility Monitoring
 
