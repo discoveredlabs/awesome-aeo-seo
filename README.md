@@ -87,7 +87,7 @@ Controlled experiments, large-scale audits, and empirical studies on AI citation
 
 - [The Discovery Gap: Product Hunt Startups in LLM Discovery](https://arxiv.org/abs/2601.00912) - LLMs recognize products by name at 99% but surface them in organic discovery queries at only 3–8% (Sharma, 2026); traditional SEO signals - referring domains and community rank - predicted Perplexity visibility better than any AI-specific tactic, making SEO foundation a prerequisite for LLM discoverability rather than an alternative to it.
 
-- [AI Source Index](https://github.com/atlaven/ai-source-index) - Open weekly panel asking the same 40 buyer questions on ChatGPT, Perplexity, Gemini, Claude, Google AI Overviews and AI Mode since September 2026, with raw rows, flat CSVs and Python plus independent Node recounts under CC BY 4.0 (DOI 10.5281/zenodo.23651937); across ten runs 79.5% of 10,634 domain citations came from only one of the six engines, so visibility measured on one engine does not transfer to the others.
+- [AI Source Index](https://github.com/atlaven/ai-source-index) - Open weekly panel asking the same 40 buyer questions on ChatGPT, Perplexity, Gemini, Claude, Google AI Overviews and AI Mode since September 2026, with raw rows and flat CSVs under CC BY 4.0 and Python plus independent Node recount scripts under MIT; across ten weekly runs (W36–W45 2026), 79.5% of 10,634 domain–question–week pairs were cited by only one of the six engines, so visibility measured on one engine does not transfer to the others.
 
 ### Causal Inference & Methodology
 
