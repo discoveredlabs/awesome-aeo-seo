@@ -298,6 +298,8 @@ GitHub repositories with runnable code. Stars noted as of curation date. Vendor 
 
 - [gpt-researcher](https://github.com/assafelovic/gpt-researcher) - Autonomous research agent that plans, searches, scrapes, and synthesizes reports with citations; most relevant for competitive intelligence, content gap analysis, and building the type of citation-worthy original research that the citation data shows dominates AI engine outputs. 27,900 stars, Python.
 
+- [SEO title tag study](https://github.com/smartsubhajit2005-coder/seo-title-tag-study) - CC BY 4.0 dataset of title tags, meta descriptions, canonical tags, JSON-LD and viewport tags measured on 78 high-traffic homepages in one pass on 2026-11-21, with a median title length of 41 characters and 38% of titles under 30, published with the Python collector and a documented list of bot-challenge rows.
+
 ---
 
 ## Related Lists
